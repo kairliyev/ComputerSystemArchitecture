@@ -1,6 +1,6 @@
-interface ArithmeticOperationsInterface{
-    fun add(first: String, second: String, radix: Int){
-        val firstBinary = Integer.parseInt(first, radix)
-        val secondBinary = Integer.parseInt(second, radix)
-    }
+interface ArithmeticOperationsInterface {
+    fun addBinary(a: String, b: String)
+    fun minusBinary(a: String, b: String)
+    fun multBinary(a: String, b: String)
+    fun divisionBinary(a: String, b: String)
 }

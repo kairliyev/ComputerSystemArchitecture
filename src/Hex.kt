@@ -16,7 +16,6 @@ class Hex(number: Int) {
     }
 
     fun hexToDecimal(hex: String): String {
-
         var hex = hex
         var globalHex = hex
         val digits = "0123456789ABCDEF"
