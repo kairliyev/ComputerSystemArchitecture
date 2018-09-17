@@ -13,7 +13,7 @@ class Octal(number: Int) {
             print(octal[i])
     }
 
-    fun octalToDecimal(): String{
+    fun octalToDecimal(): String {
 
         var decimal = 0
         var n = 0
@@ -28,7 +28,5 @@ class Octal(number: Int) {
             }
         }
         return "You're entered octal number: $globalNumber and it's decimal result $decimal"
-
     }
-
 }
